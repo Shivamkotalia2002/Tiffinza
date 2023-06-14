@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+    <title>Home-tiffinza</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- desktop view -->
+    <div class="container" id="container">
+        <div id="menu">
+            <div class="title">
+                <img src="/images/logo.png" alt="">
+            </div>
+            <div class="menu-item">
+                <a href="#">Home</a>
+                <a href="about.html">About Us</a>
+                <!-- <a href="tiffin.html">Tiffin-Service</a> -->
+                <a href="contact.html">Contact Us</a>
+                <a href="https://drive.google.com/file/d/13mlyCTVHHa9cwHnXluqDpzGekphifvqL/view?usp=share_link" target="_blank">T&C</a>
+            </div>
+        </div>
+
+        <div id="food-container">
+            <div id="header">
+                <div class="add-box">
+                    <i class="fa fa-map-marker your-address" id="add-address"> Your Address</i>
+                </div>
+                <div class="util">
+                    <i class="fa fa-cart-plus" id="cart-plus"> 0 Items</i>
+                </div>
+            </div>
+            <div id="food-items" class="d-food-items">
+                <div id="sharma" class="d-sharma">
+                    <p id="category-name">Sharma Dhaba  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Paschim Vihar)</span></p>    
+                </div>
+
+                <div id="paresh" class="d-paresh">
+                    <p id="category-name">Paresh Dhaba  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Moti Nagar)</span></p>    
+                </div>
+
+                <div id="hungry" class="d-hungry">
+                    <p id="category-name">Hungry Vibes  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Rohini)</span></p> 
+                </div>
+
+                <div id="dabba" class="d-dabba">
+                    <p id="category-name">Dabba Mania  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Connaught Place)</span></p> 
+                </div>
+                <div id="kotalia" class="d-kotalia">
+                    <p id="category-name">Kotalia Services  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Laxmi Nagar)</span></p> 
+                </div>
+                <br><br><br>
+                    <p style="font-weight: bold;font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">*All taxes (18% GST) are included in subscription prices.</p>
+                    <br>
+                    <p style="font-weight: bold;font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: red;">*Delivery charges are excluded and depends on the distance (in Km.)</p>
+                    <br><br><br><br>
+            </div>
+
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">Cart Items</p>
+                <p id="m-total-amount">Total Amout : 100</p>
+                <table>
+                    <thead>
+                        <td>Item</td>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                    </thead>
+                    <tbody id="table-body">
+                        
+                    </tbody>
+                </table>
+                <div class="btn-box">
+                    <button class="cart-btn">Checkout</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="cart">
+            <div class="taste-header">
+                <div class="user">
+                  <i class="fa fa-user-circle" id="circle"> Account</i> 
+                    
+                </div>
+            </div>
+            <div id="category-list">
+                <p class="item-menu">Our Vendors</p>
+                <div class="border"></div>                
+            </div>
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">Total Item : 5</p>
+                <p id="total-price"></p>
+                <p id="delievery">Free delievery on <b> first order</b></p>
+                <button class="cart-btn">Checkout</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <!-- mobile view -->
+    <div id="mobile-view" class="mobile-view">
+        <div class="mobile-top">
+            <div class="logo-box">
+                <img src="/images/logo.png" alt="" id="logo">
+                <i class="fa fa-map-marker your-address" id="m-add-address"> Your Address</i>
+            </div>
+            <div class="top-menu">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-tag"></i>
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-cart-plus" id="m-cart-plus"> 0</i>
+            </div>
+        </div>
+        
+        <div class="item-container">
+            <div class="category-header" id="category-header">  
+            </div>
+
+            <div id="food-items" class="food-items">
+                <div id="sharma" class="d-sharma">
+                    <p id="category-name">Sharma Dhaba  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Paschim Vihar)</span></p>    
+                </div>
+
+                <div id="paresh" class="d-paresh">
+                    <p id="category-name">Paresh Dhaba  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Moti Nagar)</span></p>    
+                </div>
+
+                <div id="hungry" class="d-hungry">
+                    <p id="category-name">Hungry Vibes  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Rohini)</span></p> 
+                </div>
+
+                <div id="dabba" class="d-dabba">
+                    <p id="category-name">Dabba Mania  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Connaught Place)</span></p> 
+                </div>
+                <div id="kotalia" class="d-kotalia">
+                    <p id="category-name">Kotalia Services  &nbsp;<span style="color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">(Laxmi Nagar)</span></p> 
+                </div>
+            </div> 
+        </div>
+
+        <div class="mobile-footer">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="https://drive.google.com/file/d/13mlyCTVHHa9cwHnXluqDpzGekphifvqL/view?usp=share_link" target="_blank">T&C</a>
+        </div>
+    </div>
+    <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="/tiffin.js" type="module"></script>
+</body>
+</html>
